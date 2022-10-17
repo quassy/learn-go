@@ -27,6 +27,12 @@ func main() {
 		coffee2()
 	case "odds":
 		odds()
+	case "chatty":
+		chatty()
+	case "arrays":
+		arrays()
+	case "forbidden":
+		forbidden()
 	default:
 		fmt.Println("Unknown.")
 	}
